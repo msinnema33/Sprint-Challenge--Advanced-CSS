@@ -32,15 +32,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the difference between an adaptive website and a fully responsive website?
+manager
+1.	What is the difference between an adaptive website and a fully responsive website?
 
-2. Describe what it means to be mobile first vs desktop first.
+Adaptive covers the majority of potential viewing sizes, with break points at major differences (usually 1 for smart phone, 1 for tablet, 1 for lap/desk top).  Responsive covers every possible permutation of sizes.
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+2.	Describe what it means to be mobile first vs desktop first.
 
-4. How would you describe preprocessing to someone new to CSS?
+Mobile first sites are designed with mobile screen width/height in mind and scale up to larger screen sizes.  Desktop first is designed with desktop sizes in mind and scales down to mobile screen sizes.
 
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+3.	What does font-size: 62.5% in the html tag do for us when using rem units?
+
+Standard font size is 16 px.  62.5% of that is 10 px.  It allows us to easily scale font size up and down on a base 10 measurement scale.  (16 px = 1.6 rem).
+
+4.	How would you describe preprocessing to someone new to CSS?
+
+A more robust syntax for writing CSS.  It increases productivity by introducing nesting, functions, and code reuse through variables and code snippets (mixins).
+
+5.	What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?  
+
+I like them all, making sure the LESS compiler is working is a MUST.  
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
