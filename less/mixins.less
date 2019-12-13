@@ -1,16 +1,16 @@
 // Mixins Here
 
-.button() {
-    background-color: @btn-bg-color;
-    border-radius: 10px;
-    color: @seashell;
-    padding: 5px;
-    text-align: center;
-    font-size: 2rem;
-    cursor: pointer;
+ .button(@bg, @C) {
+     background-color: @bg;
+     border-radius: 10px;
+     color: @c;
+     padding: 5px;
+     text-align: center;
+     font-size: 2rem;
+     cursor: pointer;
 
-    &:hover {
-        background-color: @seashell;  
-        color: @btn-bg-color      
-    }
-}
+     &:hover {
+         background-color: @sea-shell;  
+         color: @btn-bg-color      
+     }
+ }
